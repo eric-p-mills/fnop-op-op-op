@@ -1,0 +1,48 @@
+{
+    "name": "fnop op op op",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.3.1",
+        "pxt-circuit-playground-character-icons": "github:adafruit/circuit-playground-character-icons#v0.0.8",
+        "palette": "*",
+        "controller": "*",
+        "storyboard": "*",
+        "corgio": "*",
+        "darts": "*",
+        "edge-connector": "*",
+        "keyboard": "*",
+        "mouse": "*",
+        "radio": "*",
+        "radio-broadcast": "*",
+        "servo": "*",
+        "sevenseg": "*",
+        "color-coded-tilemap": "*",
+        "feather": "*",
+        "seesaw": "github:adafruit/pxt-seesaw#v0.0.19",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "Color Fading": "github:jwunderl/pxt-color#v0.1.3",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.9.2",
+        "Sprite Grid": "github:microsoft/arcade-grid#v1.2.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.2.6",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
